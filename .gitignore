@@ -1,0 +1,8 @@
+# 忽略本地VSCode配置文件
+.vscode/
+# 忽略编译输出目录
+build/
+# 忽略 clangd 编译数据库（由 ~/.local/bin/gen-compile-commands 从 Makefile 生成，不要提交）
+compile_commands.json
+# macOS 目录元数据
+.DS_Store
